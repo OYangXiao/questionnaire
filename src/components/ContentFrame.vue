@@ -28,7 +28,7 @@
     background-color: white;
     flex: 1;
     height: 100%;
-    &>div{
+    & > div {
       width: max-content;
     }
   }
@@ -55,6 +55,8 @@ export default {
         this.currentPage = '测评入口';
       }
     });
+    // TODO: test code
+    this.currentPage = '测评入口';
   },
   methods: {
     selectPage(page) {

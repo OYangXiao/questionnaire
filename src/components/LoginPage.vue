@@ -53,6 +53,9 @@ export default {
         }
         alert('登陆失败，' + res.data.message);
       });
+
+      // TODO: test code
+      return this.$emit('set-user', { name: '123', role: 'juzhang' });
     },
   },
 };

@@ -13,7 +13,7 @@ export default {
   components: { LoginPage, ContentFrame },
   data() {
     return {
-      user: { name: '123', role: 'juzhang' },
+      user: null,
       loading: false,
     };
   },
